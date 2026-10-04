@@ -1,0 +1,13 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border-bottom: 2px dashed rgba(255, 255, 255, .18);
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: .6rem;
+}
+.nav img { height: 40px; border-radius: 3px; }

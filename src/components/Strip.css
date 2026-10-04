@@ -1,0 +1,14 @@
+.strip {
+  background: var(--thread);
+  color: #fff;
+  border-block: 3px dashed rgba(255, 255, 255, .55);
+}
+.strip ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .35rem 1.75rem;
+  padding-block: .9rem;
+  font-weight: 600;
+}

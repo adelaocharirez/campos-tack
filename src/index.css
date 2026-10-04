@@ -18,6 +18,11 @@ body { font-family: var(--body); font-size: 1.0625rem; line-height: 1.55; }
   color: #fff;
 }
 
+section { padding-block: clamp(3rem, 7vw, 5.5rem); }
+
+h2 { font: 400 clamp(1.9rem, 5vw, 3rem)/1.1 var(--display); margin-bottom: .75rem; }
+.lede { max-width: 40rem; margin-bottom: 2rem; color: #4a4c53; }
+
 .btn {
   font: 600 1rem var(--body);
   display: inline-flex; align-items: center; justify-content: center;
@@ -28,3 +33,7 @@ body { font-family: var(--body); font-size: 1.0625rem; line-height: 1.55; }
 .btn-red { background: var(--thread); color: #fff; border-color: var(--thread); }
 .btn-red:hover { background: var(--thread-deep); border-color: var(--thread-deep); }
 .btn-line { color: inherit; border-color: currentColor; }
+
+.btn-sm { padding: .45rem .9rem; min-height: 40px; font-size: .95rem; }
+
+section { scroll-margin-top: 56px; }
