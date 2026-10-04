@@ -1,0 +1,30 @@
+:root {
+  --ink: #17181c;
+  --thread: #e0242f;
+  --thread-deep: #b3141f;
+  --display: 'Alfa Slab One', Georgia, serif;
+  --body: 'Barlow', system-ui, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--body); font-size: 1.0625rem; line-height: 1.55; }
+
+.wrap { width: min(1140px, 100% - 2.5rem); margin-inline: auto; }
+
+/* dark twill fabric look */
+.dark {
+  background-color: var(--ink);
+  background-image: repeating-linear-gradient(45deg, rgba(255,255,255,.028) 0 2px, transparent 2px 6px);
+  color: #fff;
+}
+
+.btn {
+  font: 600 1rem var(--body);
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: .75rem 1.25rem; min-height: 44px;
+  border: 2px solid transparent; border-radius: 4px;
+  text-decoration: none; cursor: pointer;
+}
+.btn-red { background: var(--thread); color: #fff; border-color: var(--thread); }
+.btn-red:hover { background: var(--thread-deep); border-color: var(--thread-deep); }
+.btn-line { color: inherit; border-color: currentColor; }
